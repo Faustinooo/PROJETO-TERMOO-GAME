@@ -1,8 +1,11 @@
+from decoração import *
+print(texto(a = 33,b = "TERMOO", c = 34))
 termo = "olhos"
 tentativas = 0
 while True:
-    letras_certas = str("")
+    letras_certas = ""
     tentativas += 1
+    print(f"DICA: A PALAVRA POSSUI {len(termo)} LETRAS")
     tentativa = str(input("Escreva Uma Palavra: ").strip())
     if len(tentativa) > len(termo):
         print(f"A PALAVRA TEM {len(termo)} Letras")
