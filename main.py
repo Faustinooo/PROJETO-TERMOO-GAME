@@ -38,3 +38,4 @@ while True:
     if tentativa == termo:
         break
 print(f"\033[32mPARABÉNS VOCÊ DESCOBRIU! A PALAVRA ERA\033[m {termo.upper()}!")
+# ERRO REPORTADO, VERIFICAÇÃO NÃO ESTÁ FUNCIONANDO EM LETRAS REPETIDAS APÓS PRIMEIRA VERIFICAÇÃO VERDE
